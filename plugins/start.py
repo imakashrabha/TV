@@ -400,18 +400,13 @@ async def bought(client, message):
             caption=f'<b>User - {message.from_user.mention}\nUser id - <code>{message.from_user.id}</code>\nusername - <code>{message.from_user.username}</code>\nUser Name - <code>{message.from_user.first_name}</code></b>',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    
                     [
-                        InlineKeyboardButton(
-                            "• ᴄʟᴏsᴇ •", callback_data="close_data"
-                        )
+                        InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="close_data")
                     ]
-                    
                 ]
             )
         )
         await msg.edit_text('<b>Your screenshot has been sent to Admins</b>')
-            )
 
 @Client.on_message(filters.private & filters.command('restart') & filters.user(ADMINS))
 async def restart(client, message):
