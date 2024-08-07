@@ -6,8 +6,8 @@
       "file",
       "sharing"
     ],
-    "repository": "https://github.com/Codeflix-Bots/File-Store-Bot-Token-Verification",
-    "logo": "https://ibb.co/FgPVtzw",
+    "repository": "https://github.com/actressuniverse/File-Store-Bot-TokenVerification",
+    "logo": "https://ibb.co/PmDttdh",
     "env": {
         "ADMINS" : {
             "description" : "Enter admins no need to add owner id, add with no commas and no hyphens",
@@ -103,7 +103,7 @@
       },
       "TUT_VID": {
         "description" : "Enter tutorial link url",
-        "value": "https://t.me/How_to_Download_7x/32",
+        "value": "https://t.me/links_tutorials_x/3",
         "required": false
       },
       "FORCE_MSG": {
