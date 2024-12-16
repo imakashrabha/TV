@@ -9,8 +9,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001119766850"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002096548543"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002196197913"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002201654960"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -23,21 +23,21 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ!!")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7219119674:AAHfybl_9dNipCd7y--4fVq_BvAMVNpQ_lU") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", "26132893"))
+APP_ID = int(os.environ.get("APP_ID", "27705761"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "5f8cc9ef2e106d963607432c1a21bbc8")
+API_HASH = os.environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001119766850"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002397556354"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "-1002226605455")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "-1002397556354")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", "847244116"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6987158459"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://actressuniverseofficial:s9JgtnuSYXMzrWdD@cluster0.doudbdi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://akashrabha2005:781120@cluster0.pv6yd2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #your database name
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
@@ -46,13 +46,13 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "xXx_TOXIC_xXx")
+OWNER_TAG = os.environ.get("OWNER_TAG", "imakashrabha")
 #Time in seconds for message delete
-TIME = int(os.environ.get("TIME", "300"))
+TIME = int(os.environ.get("TIME", "30"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1001868871195'))
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002291553647'))
 
 #Shortner (token system) 
 """
