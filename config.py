@@ -23,7 +23,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ!!")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7859871122:AAGiVnNWw_a9a1hcK71eWpL07QwH1lX9s5Q") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7859871122:AAGohx6UhHP3-hj9SZ03Cjqw-UCwpLMcRpY") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "27705761"))
 #your api hash from https://my.telegram.org/apps
@@ -65,9 +65,10 @@ https://dashboard.shareus.io/
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "api.shareus.io")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e1cc413c5c5d13fa651b17f9bb2fe95438a9e490
+")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e1cc413c5c5d13fa651b17f9bb2fe95438a9e490")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
@@ -79,7 +80,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/links_tutorials_x/3")
 #put TRUE if you want this feature
 USE_PAYMENT = True if (os.environ.get("USE_PAYMENT", "FALSE") == "TRUE") & (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", " ")
+UPI_ID = os.environ.get("UPI_ID", "xxxxx")
 #UPI QR CODE IMAGE
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "")
 #SCREENSHOT URL of ADMIN for verification of payments
@@ -115,7 +116,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE"
 
 #no need to add anything from now on
 
-ADMINS = []
+ADMINS = [6987158459]
 ADMINS.append(OWNER_ID)
 
 LOG_FILE_NAME = "logs.txt"
