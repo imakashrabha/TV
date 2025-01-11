@@ -29,9 +29,9 @@ APP_ID = int(os.environ.get("APP_ID", "26132893"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "5f8cc9ef2e106d963607432c1a21bbc8")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002397556354"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002206992115"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "-1002397556354")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "-1002206992115")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "6987158459"))
 #port set to default 8080
@@ -64,8 +64,8 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "api.shareus.io")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e1cc413c5c5d13fa651b17f9bb2fe95438a9e490")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
 SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e1cc413c5c5d13fa651b17f9bb2fe95438a9e490")
 #add your custom time in secs for shortlink expiration.
