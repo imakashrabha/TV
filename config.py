@@ -23,7 +23,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ!!")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7859871122:AAGmzZaDv6vW_A1rSHVxrri5SRuXKE5QXiw") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7859871122:AAEQqlZ9mUyLsrNzM3ThmNTXvrppKp15GxI") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "26132893"))
 #your api hash from https://my.telegram.org/apps
@@ -64,14 +64,14 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "tryshort.in")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "08f911e9342ebb46e103cb53f304b349d9d68ea6")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e1cc413c5c5d13fa651b17f9bb2fe95438a9e490")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "86400")) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "1800")) # Add time in seconds
 #Tutorial video for the user of your shortner on how to download.
 TUT_VID = os.environ.get("TUT_VID","https://t.me/links_tutorials_x/3")
 
@@ -79,11 +79,11 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/links_tutorials_x/3")
 #put TRUE if you want this feature
 USE_PAYMENT = True if (os.environ.get("USE_PAYMENT", "FALSE") == "TRUE") & (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", "xxxxx")
+UPI_ID = os.environ.get("UPI_ID", "imakashrabha@axl")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://envs.sh/oXP.jpg")
 #SCREENSHOT URL of ADMIN for verification of payments
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "https://envs.sh/oXP.jpg")
 #Time and its price
 #7 Days
 PRICE1 = os.environ.get("PRICE1", "30 rs")
